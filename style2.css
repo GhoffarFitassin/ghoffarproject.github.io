@@ -1,0 +1,37 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #111010;
+}
+.jumbotron h1,
+p {
+  color: rgb(179, 179, 179);
+}
+#about {
+  background-color: #242424;
+}
+#about h2,
+div {
+  color: rgb(179, 179, 179);
+}
+#my-games {
+  background-color: #111010;
+}
+#my-games h2 {
+  color: rgb(179, 179, 179);
+}
+.card {
+  color: rgb(179, 179, 179);
+  background-color: black;
+  transition: transform 0.5s;
+}
+.card:hover {
+  -ms-transform: scale(2.05); /* IE 9 */
+  -webkit-transform: scale(2.05); /* Safari 3-8 */
+  transform: scale(1.05);
+}
+#contact {
+  background-color: #242424;
+}
+section {
+  padding-top: 5rem;
+}
